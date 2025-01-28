@@ -1,12 +1,12 @@
 /*  your css code here. If applicable */
-@media only screen and(orientation:landscape){
+@media only screen and(orientation:portrait){
 	body{
-		background-image:"https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Paysage-en-orientation-paysage.jpg";
+		background:url('https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Portrait-en-orientation-portrait.jpg');
 	}
 }
 
-@media only screen and(orientation:portrait){
+@media only screen and(orientation:landscape){
 	body{
-		background:url("https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Portrait-en-orientation-portrait.jpg");
+		background:url('https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Paysage-en-orientation-paysage.jpg');
 	}
 }
